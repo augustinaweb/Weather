@@ -8,10 +8,7 @@
     "ecmaVersion": 2018,
     "sourceType": "module"
   },
-  "plugins": [
-    "@typescript-eslint",
-    "react-hooks"
-  ],
+  "plugins": ["@typescript-eslint", "react-hooks"],
   "extends": [
     "plugin:react/recommended",
     "plugin:@typescript-eslint/recommended"
@@ -20,9 +17,7 @@
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
     "react/prop-types": "off",
-    "quotes": ["error", "single"],
     "semi": ["error", "always"],
-    "indent": ["error", "tab"],
     "no-multi-spaces": ["error"]
   },
   "settings": {
